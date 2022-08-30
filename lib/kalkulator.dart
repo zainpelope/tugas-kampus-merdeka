@@ -4,7 +4,7 @@ void main(List<String> args) {
   int c = a + b;
   int d = a - b;
   int e = a * b;
-  num f = a / b;
+  double f = a / b;
 
 
   //penjumlahan
