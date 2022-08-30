@@ -1,25 +1,21 @@
 void main(List<String> args) {
   int a = 8;
   int b = 4;
+  int c = a + b;
+  int d = a - b;
+  int e = a * b;
+  num f = a / b;
 
-  String jumlah = "Hasil Penjumlahan";
-  String kurang = "Hasil Pengurangan";
-  String kali = "Hasil Perkalian";
-  String bagi = "Hasil Pembagian";
 
   //penjumlahan
-  print(jumlah);
-  print(a + b);
+  print('$a + $b hasil penjumlahan = $c');
 
   //pengurangan
-  print(kurang);
-  print(a - b);
+  print('$a - $b hasil pengurangan = $d');
 
   //perkalian
-  print(kali);
-  print(a * b);
+  print('$a * $b hasil perkalian = $e');
 
   //pembagian
-  print(bagi);
-  print(a / b);
+  print('$a / $b hasil pembagian = $f');
 }
