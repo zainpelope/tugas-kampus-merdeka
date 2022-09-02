@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  int bilangan = 5;
+  int bilangan = 10;
   int check = 0;
 
   for (int i = 1; i <= 10; i++) {
