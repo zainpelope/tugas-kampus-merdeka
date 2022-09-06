@@ -1,5 +1,5 @@
 class Kendaraan {
-  late String nama, jenis;
+  late String nama, jenis, bbm;
  late int jumlah_roda, tenaga_hp;
  late bool mesin;
 
